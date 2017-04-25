@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "#### test coverage for  [runas (v3.1.1)](https://github.com/atom/node-runas#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-runas.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-runas) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-runas.svg)](https://travis-ci.org/npmtest/node-npmtest-runas)",
+    "description": "#### basic test coverage for  [runas (v3.1.1)](https://github.com/atom/node-runas#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-runas.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-runas) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-runas.svg)](https://travis-ci.org/npmtest/node-npmtest-runas)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "runas": "*",
@@ -36,5 +36,5 @@
         "start": "PORT=${PORT:-8080} utility2 start test.js",
         "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
-    "version": "0.0.1"
+    "version": "2017.4.25"
 }

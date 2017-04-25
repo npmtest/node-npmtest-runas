@@ -1,6 +1,6 @@
 # npmtest-runas
 
-#### test coverage for  [runas (v3.1.1)](https://github.com/atom/node-runas#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-runas.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-runas) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-runas.svg)](https://travis-ci.org/npmtest/node-npmtest-runas)
+#### basic test coverage for  [runas (v3.1.1)](https://github.com/atom/node-runas#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-runas.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-runas) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-runas.svg)](https://travis-ci.org/npmtest/node-npmtest-runas)
 
 #### Run command synchronously with administrator privilege.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-runas/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-runas/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-runas/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-runas/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-runas/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-runas/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-runas/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-runas/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-runas/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-runas/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-runas/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-runas/build/coverage.html/index.html)
 
@@ -91,7 +91,8 @@
         "prepublish": "grunt coffee",
         "test": "node node_modules/jasmine-focused/bin/jasmine-focused --captureExceptions --coffee spec"
     },
-    "version": "3.1.1"
+    "version": "3.1.1",
+    "bin": {}
 }
 ```
 
